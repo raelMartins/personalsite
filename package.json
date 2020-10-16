@@ -21,7 +21,8 @@
   "homepage": "https://github.com/raelMartins/personalsite#readme",
   "dependencies": {
     "react": "^16.14.0",
-    "react-dom": "^16.14.0"
+    "react-dom": "^16.14.0",
+    "react-responsive-carousel": "^3.2.10"
   },
   "devDependencies": {
     "@babel/core": "^7.12.1",
