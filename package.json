@@ -1,0 +1,34 @@
+{
+  "name": "personalsite",
+  "version": "1.0.0",
+  "description": "My Personal SIte",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raelMartins/personalsite.git"
+  },
+  "author": "Martins Akeredolu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raelMartins/personalsite/issues"
+  },
+  "homepage": "https://github.com/raelMartins/personalsite#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.5.0",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.3",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.1.2",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
