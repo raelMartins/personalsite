@@ -21,8 +21,10 @@
   "homepage": "https://github.com/raelMartins/personalsite#readme",
   "dependencies": {
     "react": "^16.14.0",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "^16.14.0",
-    "react-responsive-carousel": "^3.2.10"
+    "react-responsive-carousel": "^3.2.10",
+    "react-slick": "^0.27.13"
   },
   "devDependencies": {
     "@babel/core": "^7.12.1",
