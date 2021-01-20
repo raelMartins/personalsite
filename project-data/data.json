@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Laundry Service Website",
+    "description": "Built this site for Classy Touch Laundry. It allows a customer to track laundry orders and for an admin to edit a customer or an order as well as alert customers when their order is ready to be collected. Took me quite a while to develop",
+    "url": "https://classytouchlaundry.herokuapp.com/",
+    "technologies": [
+      "react",
+      "mongodb",
+      "html",
+      "sass",
+      "css",
+      "nodejs",
+      "github",
+      "git",
+      "javascript"
+    ],
+    "image": "classytouchlaundry"
+  },
+  {
+    "id": 2,
+    "name": "Draughts/Checkers Game",
+    "description": "Probably my favourite project. Built this app becaus I missed the game. wasn't sure i could even create it at the time, but pulled it off in record time",
+    "url": "https://ultimatedraughts.netlify.app/",
+    "technologies": [
+      "javascript",
+      "react",
+      "sass",
+      "bootstrap",
+      "css",
+      "babel",
+      "webpack",
+      "git",
+      "github"
+    ],
+    "image": "ultimatedraughts"
+  },
+  {
+    "id": 3,
+    "name": "Budget Planner Web App",
+    "description": "Built this application as a way to track my spending in school, cos i was always going broke. Decide to extend it to measure yearly incomes and expenses",
+    "url": "https://raelmartins.github.io/budget-planner/",
+    "technologies": [
+      "babel",
+      "bootstrap",
+      "react",
+      "css",
+      "javascript",
+      "webpack",
+      "github",
+      "git"
+    ],
+    "image": "budgetplanner"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Website",
+    "description": "You're looking at it!. Built it in about 5-ish hours... I think I like it. Do you?",
+    "url": "/",
+    "technologies": [
+      "react",
+      "sass",
+      "javascript",
+      "css",
+      "html",
+      "github",
+      "git"
+    ],
+    "image": "myportfolio"
+  },
+  {
+    "id": 5,
+    "name": "DiceGame",
+    "description": "My first ever game. Not particularly impressive. But i'm still proud of it. It allows two user to take turns rolling a die. First to reach a specified number wins. But roll two 1s or 6s and well...",
+    "url": "https://raelmartins.github.io/dicegame/",
+    "technologies": ["html", "javascript", "css", "git", "github", "bootstrap"],
+    "image": "dicegame"
+  }
+]

@@ -1,65 +1,89 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
+import fs from 'fs';
+import TypeIt from 'typeit-react';
+import styles from './style.module.scss';
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+const Home = (props) => {
+  const projects = props.data.map((el) => {
+    const projectTechnologies = el.technologies.map((tech) => (
+      <span key={tech}>
+        <Image src={`/svgs/${tech}.svg`} width={40} height={40} alt={tech} />
+      </span>
+    ));
+    return (
+      <div className={styles.projectCard} key={el.id}>
+        <div className={styles.projectImage}>
+          <Image
+            src={`/images/${el.image}.PNG`}
+            width={750}
+            height={400}
+            alt=""
+          />
         </div>
-      </main>
+        <div className={styles.projectInfo}>
+          <h4>{el.name}</h4>
+          <p>{el.description}</p>
+          <h5>Technologies</h5>
+          {projectTechnologies}
+          <div style={{ marginTop: 25, marginLeft: 0 }}>
+            <a href={el.url} target="_blank">
+              <button>View</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+  });
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+  return (
+    <div>
+      <Head>
+        <title>Portfolio</title>
+      </Head>
+      <div className={styles.top} id="top">
+        <div className={styles.topText}>
+          <TypeIt
+            element={'h1'}
+            options={{
+              strings: [
+                'Hey there...',
+                'My name is Martins...',
+                'and i build things on the internet! '
+              ],
+              speed: 35,
+              nextStringDelay: 1600,
+              waitUntilVisible: true
+            }}
+          />
+        </div>
+        <Link href="/#bottom">
+          <a className={styles.downArrow}>
+            <Image
+              src="/svgs/down-arrow.svg"
+              width={30}
+              height={30}
+              alt="Check Projects"
+            />
+          </a>
+        </Link>
+      </div>
+      <div className={styles.bottom} id="bottom">
+        <div className={styles.bottomContent}>{projects}</div>
+      </div>
     </div>
-  )
-}
+  );
+};
+
+export default Home;
+
+export const getStaticProps = async () => {
+  const res = await fs.promises.readFile(`./project-data/data.json`, 'utf-8');
+  const data = JSON.parse(res);
+  return {
+    props: {
+      data
+    }
+  };
+};
