@@ -72,7 +72,7 @@
     "id": 5,
     "name": "DiceGame",
     "description": "My first ever game. Not particularly impressive. But i'm still proud of it. It allows two users to take turns rolling a die. First to reach a specified number wins. But roll two 1s or 6s and well...",
-    "url": "https://raelmartins.github.io/dicegame/",
+    "url": "https://raels-dicegame.netlify.app/",
     "technologies": ["html", "javascript", "css", "git", "github", "bootstrap"],
     "image": "dicegame"
   }
