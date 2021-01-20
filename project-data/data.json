@@ -20,7 +20,7 @@
   {
     "id": 2,
     "name": "Draughts/Checkers Game",
-    "description": "Probably my favourite project. Built this app becaus I missed the game. wasn't sure i could even create it at the time, but pulled it off in record time",
+    "description": "Probably my favourite project. Built this app because I missed the game. wasn't sure i could even create it at the time, but pulled it off in record time",
     "url": "https://ultimatedraughts.netlify.app/",
     "technologies": [
       "javascript",
@@ -38,7 +38,7 @@
   {
     "id": 3,
     "name": "Budget Planner Web App",
-    "description": "Built this application as a way to track my spending in school, cos i was always going broke. Decide to extend it to measure yearly incomes and expenses",
+    "description": "Built this application as a way to track my spending in school, cos i was always going broke. Decided to extend it to measure yearly incomes and expenses",
     "url": "https://raelmartins.github.io/budget-planner/",
     "technologies": [
       "babel",
@@ -71,7 +71,7 @@
   {
     "id": 5,
     "name": "DiceGame",
-    "description": "My first ever game. Not particularly impressive. But i'm still proud of it. It allows two user to take turns rolling a die. First to reach a specified number wins. But roll two 1s or 6s and well...",
+    "description": "My first ever game. Not particularly impressive. But i'm still proud of it. It allows two users to take turns rolling a die. First to reach a specified number wins. But roll two 1s or 6s and well...",
     "url": "https://raelmartins.github.io/dicegame/",
     "technologies": ["html", "javascript", "css", "git", "github", "bootstrap"],
     "image": "dicegame"
