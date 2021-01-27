@@ -25,13 +25,13 @@ const Home = (props) => {
         <div className={styles.projectInfo}>
           <h4>{el.name}</h4>
           <p>{el.description}</p>
-          <h5>Technologies</h5>
-          {projectTechnologies}
-          <div style={{ marginTop: 25, marginLeft: 0 }}>
+          <div style={{ margin: '25px 0px' }}>
             <a href={el.url} target="_blank">
               <button>View</button>
             </a>
           </div>
+          <h5>Technologies</h5>
+          {projectTechnologies}
         </div>
       </div>
     );
