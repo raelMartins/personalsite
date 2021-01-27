@@ -71,14 +71,14 @@
     padding-bottom: 30px;
     display: block;
     min-height: 95vh;
-    border-radius: 7.5px;
+    // border-radius: 7.5px;
     .projectCard {
       position: relative;
       overflow: hidden;
       max-width: max-content;
       height: max-content;
       margin: 5% auto;
-      border-radius: 10px;
+      border-radius: 15px;
       background-color: $backgroundColor;
       transition: 0.5s;
       .projectInfo {
@@ -87,7 +87,7 @@
         right: 0px;
         background-color: $backgroundColor;
         opacity: 0.9;
-        width: 70%;
+        width: 100%;
         font-size: 11px;
         height: 100%;
         overflow-y: auto;
@@ -135,6 +135,7 @@
         margin: 3%;
         .projectInfo {
           font-size: 14px;
+          width: 70%;
         }
       }
     }
