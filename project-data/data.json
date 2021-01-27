@@ -38,7 +38,7 @@
   {
     "id": 3,
     "name": "Budget Planner Web App",
-    "description": "Built this application as a way to track my spending in school, cos i was always going broke. Decided to extend it to measure yearly incomes and expenses",
+    "description": "Built this application as a way to track my spending in school, because i was always going broke. Decided to extend it to measure yearly incomes and expenses",
     "url": "https://raelmartins.github.io/budget-planner/",
     "technologies": [
       "babel",
