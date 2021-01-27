@@ -75,5 +75,13 @@
     "url": "https://raels-dicegame.netlify.app/",
     "technologies": ["html", "javascript", "css", "git", "github", "bootstrap"],
     "image": "dicegame"
+  },
+  {
+    "id": 6,
+    "name": "Recipe Generator",
+    "description": "Built this application in order to practice and improve my skills with asynchronous Javascript, and getting data from an external API. It allows a user to search for recipes to prepare a certain dish using a 3rd party, limited API",
+    "url": "https://my-forkify-app.netlify.app/",
+    "technologies": ["html", "javascript", "css", "git", "github"],
+    "image": "forkify"
   }
 ]
