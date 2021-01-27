@@ -20,7 +20,7 @@
   {
     "id": 2,
     "name": "Draughts/Checkers Game",
-    "description": "Probably my favourite project. I built this app because I missed the game and I had played it in years. I wasn't even sure i could create it at the time, but I pulled it off in record time",
+    "description": "Probably my favourite project. I built this app because I missed the game and I hadn't played it in years. I wasn't even sure I could create it at the time, but I pulled it off in record time",
     "url": "https://ultimatedraughts.netlify.app/",
     "technologies": [
       "javascript",
