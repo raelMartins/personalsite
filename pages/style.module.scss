@@ -96,6 +96,26 @@
         margin-left: auto;
         transition: 0.5s;
         transform: translateX(100%);
+        .lower {
+          display: flex;
+          align-items: center;
+          h5 {
+            margin: 6px;
+          }
+          a {
+            flex: 1;
+            order: 2;
+            padding: 5px;
+          }
+          div {
+            flex: 4;
+            order: 1;
+            padding: 5px;
+            span {
+              margin-right: 4px;
+            }
+          }
+        }
         h4,
         h5 {
           text-transform: uppercase;
@@ -106,11 +126,14 @@
         }
         button {
           text-transform: uppercase;
-          padding: 15px;
+          font-weight: 800;
+          font-size: 0.8rem;
+          padding: 12px;
           border: none;
           background-color: $textColor;
           color: $backgroundColor;
           border-radius: 4px;
+          cursor: pointer;
           &:hover {
             background-color: darken($textColor, $amount: 5);
           }

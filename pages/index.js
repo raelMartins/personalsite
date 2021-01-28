@@ -9,7 +9,7 @@ const Home = (props) => {
   const projects = props.data.map((el) => {
     const projectTechnologies = el.technologies.map((tech) => (
       <span key={tech}>
-        <Image src={`/svgs/${tech}.svg`} width={40} height={40} alt={tech} />
+        <Image src={`/svgs/${tech}.svg`} width={15} height={15} alt={tech} />
       </span>
     ));
     return (
@@ -25,13 +25,15 @@ const Home = (props) => {
         <div className={styles.projectInfo}>
           <h4>{el.name}</h4>
           <p>{el.description}</p>
-          <div style={{ margin: '25px 0px' }}>
+          <div className={styles.lower}>
             <a href={el.url} target="_blank">
               <button>View</button>
             </a>
+            <div>
+              <h5>Technologies</h5>
+              {projectTechnologies}
+            </div>
           </div>
-          <h5>Technologies</h5>
-          {projectTechnologies}
         </div>
       </div>
     );
