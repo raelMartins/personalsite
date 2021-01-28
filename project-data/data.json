@@ -39,7 +39,7 @@
     "id": 3,
     "name": "Budget Planner Web App",
     "description": "I built this application as a way to track my spending in school, because I was always going broke. I decided to extend it to measure yearly incomes and expenses too",
-    "url": "https://raelmartins.github.io/budget-planner/",
+    "url": "https://raels-budget-app.netlify.app",
     "technologies": [
       "babel",
       "bootstrap",
