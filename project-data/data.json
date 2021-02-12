@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Laundry Service Website",
     "description": "Built this site for Classy Touch Laundry. It allows a customer to track laundry orders and for an admin to edit a customer or an order as well as alert customers when their order is ready to be collected. It took me about 2 months to develop",
-    "url": "https://classytouchlaundry.herokuapp.com/",
+    "url": "http://classytouchlaundry.com/",
     "technologies": [
       "react",
       "mongodb",
