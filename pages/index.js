@@ -60,16 +60,13 @@ const Home = (props) => {
             }}
           />
         </div>
-        <Link href="/#bottom">
-          <a className={styles.downArrow}>
-            <Image
-              src="/svgs/down-arrow.svg"
-              width={30}
-              height={30}
-              alt="Check Projects"
-            />
-          </a>
-        </Link>
+        <div className={styles.viewProjects}>
+          <span className={styles.downArrow}>
+            <Link href="/#bottom">
+              <img src="/svgs/down-arrow.svg" alt="View Projects" />
+            </Link>
+          </span>
+        </div>
       </div>
       <div className={styles.bottom} id="bottom">
         <div className={styles.bottomContent}>{projects}</div>

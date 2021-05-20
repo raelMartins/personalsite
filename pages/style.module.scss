@@ -4,57 +4,90 @@
   0% {
     visibility: visible;
     transform: translateY(0%);
-    transform: scale(1);
+    // transform: scale(1, 1);
   }
   25% {
     visibility: visible;
     transform: translateY(-33%);
-    transform: scale(1.2);
+    // transform: scale(1.5, 1.5);
   }
   50% {
     visibility: visible;
     transform: translateY(0%);
-    transform: scale(1);
+    // transform: scale(1, 1);
   }
   75% {
     visibility: visible;
     transform: translateY(-33%);
-    transform: scale(1.2);
+    // transform: scale(1.5, 1.5);
   }
   100% {
     visibility: visible;
     transform: translateY(0%);
-    transform: scale(1);
+    // transform: scale(1,1);
+  }
+}
+@keyframes big-small {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1.2, 1.2);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  75% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
   }
 }
 
 .top {
   position: relative;
-  // overflow: hidden;
+  background-image: linear-gradient(#141212dc, #141212dc),
+    url('../public/images/my-image.JPG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   min-height: 100vh;
   padding: 20px;
   font-size: 1.05rem;
   .topText {
     width: 80%;
     padding: 30px;
-    margin: auto;
+    margin: 20px auto;
   }
-  .downArrow {
-    position: absolute;
-    bottom: 70px;
-    left: 45%;
-    visibility: hidden;
-    width: 10%;
-    font-size: 16px;
-    text-align: center;
-    transition: 0.5s;
-    img {
+  .viewProjects {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    .downArrow {
+      visibility: hidden;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      transition: 0.5s;
       animation-name: up-down;
       animation-duration: 3s;
       animation-delay: 7s;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
-      cursor: pointer;
+      img {
+        width: 35px;
+        height: 35px;
+        animation-name: big-small;
+        animation-duration: 3s;
+        animation-delay: 7s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        cursor: pointer;
+      }
     }
   }
   @include laptop {
@@ -62,7 +95,7 @@
   }
 }
 .bottom {
-  background-color: darken($backgroundColor, $amount: 4);
+  background-color: $backgroundColor;
   min-height: 100vh;
   padding: 15px;
   .bottomContent {
