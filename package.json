@@ -8,10 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.0.5",
+    "next": "^11.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "sass": "^1.32.5",
+    "sass": "^1.35.1",
     "typeit-react": "^0.1.3"
   }
 }

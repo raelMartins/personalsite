@@ -15,7 +15,8 @@
       "git",
       "javascript"
     ],
-    "image": "classytouchlaundry"
+    "image": "classytouchlaundry",
+    "blurImage": "LbI5cNIVRiWC00%Laxj]~poeWCj["
   },
   {
     "id": 2,
@@ -33,7 +34,8 @@
       "git",
       "github"
     ],
-    "image": "ultimatedraughts"
+    "image": "ultimatedraughts",
+    "blurImage": "LcF$U~~q-;IUxuofj[WB4nIUM{of"
   },
   {
     "id": 3,
@@ -50,7 +52,8 @@
       "github",
       "git"
     ],
-    "image": "budgetplanner"
+    "image": "budgetplanner",
+    "blurImage": "L3Lg-B_200?G00-n?^t600xaz:xa"
   },
   {
     "id": 4,
@@ -66,7 +69,8 @@
       "github",
       "git"
     ],
-    "image": "myportfolio"
+    "image": "myportfolio",
+    "blurImage": "L26*dg~q004n?bxuM{M{009F_3%M"
   },
   {
     "id": 5,
@@ -82,7 +86,8 @@
       "mongodb",
       "nodejs"
     ],
-    "image": "natours"
+    "image": "natours",
+    "blurImage": "LGN_16nj-qoM00WAxuWB{=W;S1ay"
   },
   {
     "id": 6,
@@ -90,7 +95,8 @@
     "description": "My first ever game. It's not particularly impressive, just basic DOM manipulation, but I remember how excited i was after I created it. So obviously i had to include it in my portfolio. It allows two players to take turns rolling a die. First to reach a specified number wins. But roll two 1s or 6s and well...",
     "url": "https://raels-dicegame.netlify.app/",
     "technologies": ["html", "javascript", "css", "git", "github", "bootstrap"],
-    "image": "dicegame"
+    "image": "dicegame",
+    "blurImage": "LBOWsdIA00~q55EfN]I:00?G?a%0"
   },
   {
     "id": 7,
@@ -98,6 +104,7 @@
     "description": "I built this application in order to practice and improve my skills with asynchronous Javascript, and getting data from an external API. It allows a user to search for recipes to prepare a certain dish using a 3rd party, limited API",
     "url": "https://my-forkify-app.netlify.app/",
     "technologies": ["html", "javascript", "css", "git", "github"],
-    "image": "forkify"
+    "image": "forkify",
+    "blurImage": "LAS5R=p,?_yUQ8kVysi{%gg3H=n#"
   }
 ]

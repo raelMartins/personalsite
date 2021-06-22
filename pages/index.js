@@ -20,6 +20,8 @@ const Home = (props) => {
             width={750}
             height={400}
             alt=""
+            // placeholder="blur"
+            // blurDataURL={el.blurImage}
           />
         </div>
         <div className={styles.projectInfo}>
