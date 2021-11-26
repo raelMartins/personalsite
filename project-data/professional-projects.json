@@ -1,0 +1,39 @@
+[
+  {
+    "id": 101,
+    "name": "Laundry Service Website",
+    "description": "Built this site for Classy Touch Laundry. It allows a customer to track laundry orders and for an admin to edit a customer or an order as well as alert customers when their order is ready to be collected. Google login and Paystack payments were also implented. However at the moment the live site is down. Should be back up before the end of November",
+    "url": "http://www.classytouchlaundry.com/",
+    "technologies": [
+      "react",
+      "mongodb",
+      "html",
+      "sass",
+      "css",
+      "nodejs",
+      "github",
+      "git",
+      "javascript"
+    ],
+    "image": "classytouchlaundry",
+    "blurImage": "LbI5cNIVRiWC00%Laxj]~poeWCj["
+  },
+  {
+    "id": 102,
+    "name": "IbErrands",
+    "description": "A logistics services website based in Ibadan. I completely reworked the entire frontend of the website. I worked in collaboration with 2 other developers.",
+    "url": "https://iberrands.com",
+    "technologies": ["javascript", "react", "sass", "css", "git", "github"],
+    "image": "iberrands",
+    "blurImage": "LcF$U~~q-;IUxuofj[WB4nIUM{of"
+  },
+  {
+    "id": 103,
+    "name": "ReniStore",
+    "description": "Building an E-Commerce website that allows users to purchase goods and services off of the internet. The live site is still under construction",
+    "url": "/",
+    "technologies": ["react", "css", "javascript", "github", "git"],
+    "image": "renistore",
+    "blurImage": "L3Lg-B_200?G00-n?^t600xaz:xa"
+  }
+]

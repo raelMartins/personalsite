@@ -6,7 +6,42 @@ import TypeIt from 'typeit-react';
 import styles from './style.module.scss';
 
 const Home = (props) => {
-  const projects = props.data.map((el) => {
+  const personalProjects = props.personalProjects.map((el) => {
+    const projectTechnologies = el.technologies.map((tech) => (
+      <span key={tech}>
+        <Image src={`/svgs/${tech}.svg`} width={15} height={15} alt={tech} />
+      </span>
+    ));
+    return (
+      <div className={styles.projectCard} key={el.id}>
+        <div className={styles.projectImage}>
+          <Image
+            src={`/images/${el.image}.PNG`}
+            width={750}
+            height={400}
+            alt=""
+            // placeholder="blur"
+            // blurDataURL={el.blurImage}
+          />
+        </div>
+        <div className={styles.projectInfo}>
+          <h4>{el.name}</h4>
+          <p>{el.description}</p>
+          <div className={styles.lower}>
+            <a href={el.url} target="_blank">
+              <button>View</button>
+            </a>
+            <div>
+              <h5>Technologies</h5>
+              {projectTechnologies}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  });
+
+  const professionalProjects = props.professionalProjects.map((el) => {
     const projectTechnologies = el.technologies.map((tech) => (
       <span key={tech}>
         <Image src={`/svgs/${tech}.svg`} width={15} height={15} alt={tech} />
@@ -71,7 +106,11 @@ const Home = (props) => {
         </div>
       </div>
       <div className={styles.bottom} id="bottom">
-        <div className={styles.bottomContent}>{projects}</div>
+        <h4>PROFESSIONAL</h4>
+        <div className={styles.bottomContent}>{professionalProjects}</div>
+
+        <h4>PERSONAL</h4>
+        <div className={styles.bottomContent}>{personalProjects}</div>
       </div>
     </div>
   );
@@ -80,11 +119,20 @@ const Home = (props) => {
 export default Home;
 
 export const getStaticProps = async () => {
-  const res = await fs.promises.readFile(`./project-data/data.json`, 'utf-8');
-  const data = JSON.parse(res);
+  const res1 = await fs.promises.readFile(
+    `./project-data/personal-projects.json`,
+    'utf-8'
+  );
+  const res2 = await fs.promises.readFile(
+    `./project-data/professional-projects.json`,
+    'utf-8'
+  );
+  const personalProjects = JSON.parse(res1);
+  const professionalProjects = JSON.parse(res2);
   return {
     props: {
-      data
+      personalProjects,
+      professionalProjects
     }
   };
 };

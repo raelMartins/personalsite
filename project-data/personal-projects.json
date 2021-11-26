@@ -1,25 +1,6 @@
 [
   {
     "id": 1,
-    "name": "Laundry Service Website",
-    "description": "Built this site for Classy Touch Laundry. It allows a customer to track laundry orders and for an admin to edit a customer or an order as well as alert customers when their order is ready to be collected. It took me about 2 months to develop",
-    "url": "http://www.classytouchlaundry.com/",
-    "technologies": [
-      "react",
-      "mongodb",
-      "html",
-      "sass",
-      "css",
-      "nodejs",
-      "github",
-      "git",
-      "javascript"
-    ],
-    "image": "classytouchlaundry",
-    "blurImage": "LbI5cNIVRiWC00%Laxj]~poeWCj["
-  },
-  {
-    "id": 2,
     "name": "Draughts/Checkers Game",
     "description": "Probably my favourite project. I built this app because I missed the game and I hadn't played it in years. I wasn't even sure I could create it at the time, but I pulled it off in record time",
     "url": "https://ultimatedraughts.netlify.app/",
@@ -38,7 +19,7 @@
     "blurImage": "LcF$U~~q-;IUxuofj[WB4nIUM{of"
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Budget Planner Web App",
     "description": "I built this application as a way to track my spending in school, because I was always going broke. I decided to extend it to measure yearly incomes and expenses too",
     "url": "https://raels-budget-app.netlify.app",
@@ -54,6 +35,23 @@
     ],
     "image": "budgetplanner",
     "blurImage": "L3Lg-B_200?G00-n?^t600xaz:xa"
+  },
+  {
+    "id": 3,
+    "name": "Tech Test",
+    "description": "This was built as a job interview tech test, mainly testing my ability to interprete design. I liked how it turned out so I decided to display it on here",
+    "url": "https://flexit-frontend-dev-test.netlify.app/",
+    "technologies": [
+      "react",
+      "html",
+      "sass",
+      "css",
+      "github",
+      "git",
+      "javascript"
+    ],
+    "image": "flexit-tech-test",
+    "blurImage": "LbI5cNIVRiWC00%Laxj]~poeWCj["
   },
   {
     "id": 4,
