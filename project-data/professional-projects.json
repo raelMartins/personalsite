@@ -24,7 +24,7 @@
     "description": "A logistics services website based in Ibadan. I completely reworked the entire frontend of the website. I worked in collaboration with 2 other developers.",
     "url": "https://iberrands.com",
     "technologies": ["javascript", "react", "sass", "css", "git", "github"],
-    "image": "iberrands",
+    "image": "my-iberrands",
     "blurImage": "LcF$U~~q-;IUxuofj[WB4nIUM{of"
   },
   {
@@ -33,7 +33,7 @@
     "description": "Building an E-Commerce website that allows users to purchase goods and services off of the internet. The live site is still under construction",
     "url": "/",
     "technologies": ["react", "css", "javascript", "github", "git"],
-    "image": "renistore",
+    "image": "my-renistore",
     "blurImage": "L3Lg-B_200?G00-n?^t600xaz:xa"
   }
 ]
