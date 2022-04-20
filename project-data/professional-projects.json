@@ -35,5 +35,14 @@
     "technologies": ["react", "css", "javascript", "github", "git"],
     "image": "my-renistore",
     "blurImage": "L3Lg-B_200?G00-n?^t600xaz:xa"
+  },
+  {
+    "id": 104,
+    "name": "Betrelate",
+    "description": "Building a social media platform specifically tailored for gamblers. Lottery results, live scores and more can be viewed here",
+    "url": "https://betrelate.netlify.app/",
+    "technologies": ["react", "css", "sass", "javascript", "github", "git"],
+    "image": "my-betrelate",
+    "blurImage": "L3Lg-B_200?G00-n?^t600xaz:xa"
   }
 ]
