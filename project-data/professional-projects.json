@@ -31,7 +31,7 @@
     "id": 103,
     "name": "ReniStore",
     "description": "Building an E-Commerce website that allows users to purchase goods and services off of the internet. The live site is still under construction",
-    "url": "/",
+    "url": "https://test.reni.store/",
     "technologies": ["react", "css", "javascript", "github", "git"],
     "image": "my-renistore",
     "blurImage": "L3Lg-B_200?G00-n?^t600xaz:xa"
