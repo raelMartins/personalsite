@@ -3,7 +3,7 @@
     "id": 101,
     "name": "Laundry Service Website",
     "description": "Built this site for Classy Touch Laundry. It allows a customer to track laundry orders and for an admin to edit a customer or an order as well as alert customers when their order is ready to be collected. Google login and Paystack payments were also implented. However at the moment the live site is down. Should be back up before the end of November",
-    "url": "http://www.classytouchlaundry.com/",
+    "url": "https://classytouchlaundry.herokuapp.com/",
     "technologies": [
       "react",
       "mongodb",
